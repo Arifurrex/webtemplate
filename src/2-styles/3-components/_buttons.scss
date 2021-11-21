@@ -1,0 +1,29 @@
+.btn {
+    display        : inline-block;
+    font-family    :var(--ff-serif);
+    text-transform : uppercase;
+    padding        : .25em 2em;
+    text-decoration: none;
+    margin         : .5em 0 0;
+    border-radius  : .4em;
+    cursor: pointer;
+
+    &:hover {
+        opacity: .8;
+    }
+
+    &--light {
+        background: var(--clr-dark);
+        color     : var(--clr-light);
+    }
+
+    &--dark {
+        background: var(--clr-dark);
+        color     : white;
+    }
+
+    &--outline {
+        border: 2px solid currentColor;
+        color : var(--clr-light);
+    }
+}
